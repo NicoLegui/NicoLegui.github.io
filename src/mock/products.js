@@ -2,22 +2,22 @@ const products = [
   {
     id: 1,
     name: "Hamburguesas Caseras",
-    price: 3000,
-    description: "Deliciosos hamburguesas caseras con pan de papa casero y un delicioso cheddar con lechuga tomate y fritas",
-    image: "https://via.placeholder.com/150?text=Hamburguesas"
+    price: 3500,
+    description: "Deliciosas hamburguesas con pan de papa casero, cheddar, lechuga, tomate y fritas",
+    image: "https://www.labrujula24.com/wp-content/uploads/2024/10/55.jpg"
   },
   {
     id: 2,
-    name: "Enchiladas Verdes",
-    price: 65,
-    description: "Rellenas de pollo bañadas en salsa verde",
-    image: "https://via.placeholder.com/150?text=Enchiladas"
+    name: "Pizza Muzzarella",
+    price: 7500,
+    description: "Pizza clásica con doble muzzarella y salsa especial",
+    image: "https://saborargento.com.ar/wp-content/uploads/2023/09/Receta-de-Pizza-Muzzarella.jpg"
   },
   {
     id: 3,
-    name: "Chiles Rellenos",
-    price: 75,
-    description: "Chiles poblanos rellenos de queso",
+    name: "Sandwich Milanesa",
+    price: 3500,
+    description: "Sandwich de milanesa de carne o pollo con lechuga y tomate",
     image: "https://via.placeholder.com/150?text=Chiles+Rellenos"
   },
   {
