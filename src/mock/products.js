@@ -17,15 +17,15 @@ const products = [
     id: 3,
     name: "Sandwich Milanesa",
     price: 3500,
-    description: "Sandwich de milanesa de carne o pollo con lechuga y tomate",
-    image: "https://via.placeholder.com/150?text=Chiles+Rellenos"
+    description: "Sandwich de milanesa con pan de pebete de carne o pollo con lechuga y tomate",
+    image: "https://www.paulinacocina.net/wp-content/uploads/2024/07/sandwich-de-milanesa-800x386.jpg"
   },
   {
     id: 4,
-    name: "Pozole Rojo",
-    price: 60,
-    description: "Tradicional pozole con carne de cerdo",
-    image: "https://via.placeholder.com/150?text=Pozole"
+    name: "Salchipapas",
+    price: 1500,
+    description: "Clásico de papas fritas con salchichas y salsa",
+    image: "https://www.recetasderechupete.com/wp-content/uploads/2023/06/Salchipapas-1200x828.jpg"
   }
 ];
 

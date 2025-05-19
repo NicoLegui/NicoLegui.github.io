@@ -1,14 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const FoodHeader = ({ cartCount, onOpenCart }) => {
+  const [isBouncing, setIsBouncing] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsBouncing(true);
+      setTimeout(() => setIsBouncing(false), 500);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-40">
+    <header className="bg-gradient-to-b from-black to-white shadow-sm sticky top-0 z-40">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-green-600">Delicias Express</h1>
+        <div className="flex items-center">
+          <div className="mr-3 text-3xl">🍔</div>
+          <h1 
+            className={`text-2xl font-bold text-white ${isBouncing ? 'animate-bounce' : ''}`}
+          >
+            Delicias Express
+          </h1>
+          <div className="ml-3 text-3xl animate-pulse">🍕</div>
+        </div>
         
         <button 
           onClick={onOpenCart}
-          className="relative p-2 text-gray-700 hover:text-green-600"
+          className="relative p-2 text-white hover:text-green-300"
         >
           🛒
           {cartCount > 0 && (
