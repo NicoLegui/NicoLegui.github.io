@@ -17,15 +17,15 @@ const desserts = [
     id: 7,
     name: "Budin de pan chico",
     price: 4000,
-    description: "Delicioso budin de pan, ideal para acompañar el mate",
-    image: "https://www.recetasderechupete.com/wp-content/uploads/2023/06/Budin-de-pan-1200x828.jpg"
+    description: "Delicioso budin de pan, ideal para acompañar la merienda",
+    image: "https://media.ambito.com/p/6337ad4a9ecf98a90aaf6468627831e9/adjuntos/239/imagenes/040/508/0040508385/budin-pan.jpg"
   },
   {
     id: 8,
-    name: "Helado Artesanal",
-    price: 30,
-    description: "Helado casero en varios sabores",
-    image: "https://via.placeholder.com/150?text=Helado"
+    name: "Budin de pan grande",
+    price: 6000,
+    description: "Budín de pan grande, ideal para compartir en familia o con amigos",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRSjcRfqqZZ8lM48uQQsX_VswtqSAMWTjH7Q&s"
   }
 ];
 

@@ -4,7 +4,7 @@ const products = [
     name: "Hamburguesas Caseras",
     price: 3500,
     description: "Deliciosas hamburguesas con pan de papa casero, cheddar, lechuga, tomate y fritas",
-    image: "https://www.labrujula24.com/wp-content/uploads/2024/10/55.jpg"
+    image: "https://media-cdn.tripadvisor.com/media/photo-s/17/03/a7/fe/tylko-u-nas-zestawy-promocyjne.jpg"
   },
   {
     id: 2,
